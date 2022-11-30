@@ -1,0 +1,91 @@
+html {
+    background-color: #6f3581;
+    background:  #6f3581;
+    background:  -webkit-gradient(linear, right top, left top, from(#6f3581), to(#233566));
+    background:  linear-gradient(to left, #6f3581, #233566);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lugar{
+    grid-area: lugar;
+    background:  linear-gradient( #b4bfff, #f6c0fd);
+    background-size: 100%;
+    background-position: bottom;
+    width: 33%;
+    height: 100%;
+margin-top: 5%;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+    padding-left: 1%;
+    box-shadow: 5px 5px 15px 3px black;
+}
+
+.logo{
+    color: white;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+    font-size: 100px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 30px;
+    margin: 40px;
+}
+.tit{
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+}
+
+.selector{
+    background-color: #bdddfc;
+    height: 100%;
+    width: 17.5%;
+    display: inline-block;
+    margin-left: 2%;
+    border-radius: 15px;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 5px 5px 15px 3px black;
+}
+
+img{
+    width: 105px;
+    height: 105px;
+    margin: 5px;
+    float: right;
+}
+
+.imgcer{
+    margin-top: 2%;
+    width: 65%;
+    height: auto;
+    float: inline-start;
+    margin-block-start: auto;
+    margin: 50px auto;
+    box-shadow: 5px 5px 15px 3px black;   
+}
+
+.par{
+    margin-block-start: auto;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.piepag{
+margin-top: 10%;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 15px 3px black; 
+}
+
+.rec{
+    display: inline-block;
+    width: 30%;
+    text-align: ce;
+    margin: 1%;
+}

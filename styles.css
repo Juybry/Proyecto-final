@@ -1,0 +1,222 @@
+html {
+    background-color: #6f3581;
+    background:  #6f3581;
+    background:  -webkit-gradient(linear, right top, left top, from(#6f3581), to(#233566));
+    background:  linear-gradient(to left, #6f3581, #233566);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* .m1{
+    width: 94%;
+    height: 17.8%;
+    margin: 2%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "lugar horario ";
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.m2{
+    width: 94%;
+    height: 17.8%;
+    margin: 2%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "nosotros historia";
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.m3{
+    width: 94%;
+    height: 17.8%;
+    margin: 2%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "comida gal";
+    padding: 15px;
+}
+
+.m4{
+    width: 94%;
+    height: 17.8%;
+    margin: 2%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto;
+    grid-template-areas: "promos";
+    padding: 15px;
+} */
+
+
+.pr{
+    background-size: 100%;
+    background-position: center;
+    grid-area: promos;
+    width: 90%;
+    height: 80%;
+    margin: 1%;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+    padding: 2%;
+}
+
+.logo{
+    color: white;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+    font-size: 100px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 30px;
+    margin: 40px;
+}
+
+.tit{
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+}
+
+
+.selector{
+    background-color: #bdddfc;
+    height: 100%;
+    width: 17.5%;
+    display: inline-block;
+    margin-left: 2%;
+    border-radius: 15px;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 5px 5px 15px 3px black;
+}
+
+
+.lugar{
+    grid-area: lugar;
+    background:  linear-gradient( #b4bfff, #f6c0fd);
+    background-size: 100%;
+    background-position: bottom;
+    width: 50%;
+    height: 92%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+    padding-left: 1%;
+    box-shadow: 5px 5px 15px 3px black;
+}
+
+.lugar p{
+    max-width: 80%;
+}
+
+.hora{
+    background:  linear-gradient( #b4bfff, #f6c0fd);
+    background-size: 50%;
+    background-position: center;
+    width: 100%;
+    height: 92%;
+    margin: 0%;
+    font-size: 20px;
+    grid-area: horario;
+    border-radius: 20px;
+    color: black;
+    padding-left: 1%;
+    box-shadow: 5px 5px 15px 3px black;
+}
+
+.nosotros{
+    background:  linear-gradient( #b4bfff, #f6c0fd);
+    background-size: 100%;
+    background-position: center;
+    grid-area: nosotros;
+    width: 100%;
+    height: 92%;
+    margin: 1%;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+    padding-left: 1%;
+    box-shadow: 5px 5px 15px 3px black;
+}
+
+.historia{
+    background:  linear-gradient( #b4bfff, #f6c0fd);
+    background-size: 100%;
+    background-position: center;
+    grid-area: historia;
+    width: 100%;
+    height: 92%;
+    margin: 1%;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: black;
+    padding-left: 1%;
+    box-shadow: 5px 5px 15px 3px black;
+}
+
+.com{
+    background:  linear-gradient( #b4bfff, #f6c0fd);
+    background-size: 100%;
+    background-position: center;
+    grid-area: comida;
+    width: 100%;
+    height: 92%;
+    margin: 1%;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+    padding-left: 1%;
+    box-shadow: 5px 5px 15px 3px black;
+}
+
+.gal{
+    background:  linear-gradient( #b4bfff, #f6c0fd);
+    background-size: 100%;
+    background-position: center;
+    grid-area: gal;
+    width: 100%;
+    height: 92%;
+    margin: 1%;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+    padding-left: 2%;
+    box-shadow: 5px 5px 15px 3px black;
+}
+
+
+.piepag{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 15px 3px black; 
+}
+
+.rec{
+    display: inline-block;
+    width: 30%;
+    text-align: ce;
+    margin: 1%;
+}
+
+img{
+    width: 105px;
+    height: 105px;
+    margin: 5px;
+    float: right;
+}
+
